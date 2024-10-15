@@ -45,5 +45,5 @@ git switch [branch_name]
 - Merging branch to the main branch
 git merge [branch_name]
 
-- Deleted a branch
+- Delete a branch
 git branch -d [branch_name]
