@@ -1,0 +1,52 @@
+#text-styling{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    color: #000000;
+    text-decoration: underline; 
+    background-color: aqua;
+    padding: 40%;
+    border-radius: 100%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5); 
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1);
+    /* transform-origin: center; */
+    cursor: pointer;
+    animation: fade-in 2s ease-in-out infinite alternate;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    border-style:  double;
+    border-color: #ff0000;
+    /* border-width: 5px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    z-index: 1; */
+    /* border: 1px solid black; */
+    /* width: 50%; */
+    /* height: 50%; */
+    /* margin: auto; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* right: 0; */
+    /* transition: opacity 1s ease-in-out; */
+    /* opacity: 0; */
+    /* display: none; */
+    /* visibility: hidden; */
+    /* pointer-events: none; */
+
+}
+.circle-container{
+    background-color: red;
+    
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+
+}
+.circle-container h2{
+    padding: 20px;
+}

@@ -1,0 +1,45 @@
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row; /* defualt */
+    
+
+    /* justify-content: flex-start | flex-end | center | space-between | space-around; */
+    
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: flex-start; /* defualt */
+
+    /* align-items: flex-start | flex-end | center | baseline | stretch; */
+    
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch; /* defualt */
+
+    /* wrapping the content */
+    flex-wrap: nowrap;
+    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+
+    /* column and row gap */
+    column-gap: 20px;
+    row-gap: 20px;
+    gap: 50px;
+
+}
+
+/* willingness of the item grow */
+.flexItem1 {
+    flex-grow: 0;
+    flex-grow: 1;
+}
+
+/* willingness of the item shrink */
+.flexItem3 {
+    flex-shrink: 0;
+    flex-shrink: 1;
+}

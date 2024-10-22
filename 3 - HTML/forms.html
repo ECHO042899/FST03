@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Forms</title>
+</head>
+<body>
+    <!-- Form is used to collect user input -->
+     <h1>Creating Forms</h1>
+    
+     <form action="">
+        <div>
+        <label for="fullname-id">FULL NAME:</label>
+        <input type="text" name="user-fullname" id="fullname-id" placeholder="FULL NAME"
+        required/>
+        </div>
+
+        <div>
+        <label for="email-id">EMAIL:</label>
+        <input type="email" name="user-email" id="email-id" placeholder="EMAIL"
+        required/>
+        </div>
+
+        <div>
+            <label for="password-id">PASSWORD:</label>
+            <input type="password" name="user-password" id="password-id" placeholder="PASSWORD"
+            required/>
+        </div>
+
+        <div>
+            <label for="number-id">NUMBER:</label>
+            <input type="number" name="user-number" id="number-id" placeholder="NUMBER" required
+            min="18"
+            max="100"/>
+        </div>
+
+        <div>
+            <label for="discription-id">DESCRIPTION:</label><br>
+            <textarea name="user-description" id="discription-id" placeholder="Description"
+            cols="50" rows="5" required></textarea>
+        </div>
+
+        <div>
+            <label for="gender-id">GENDER:</label>
+            <select name="user-gender" id="gender-id">
+                <option value="" selected disabled >--- Select your gender ---</option>
+                <option value="Boy">Boy</option>
+                <option value="Girl">Girl</option>
+                <option value="Gay">Gay</option>
+                <option value="Lesbian">Lesbian</option>
+                <option value="Bisexual">Bisexual</option>
+                <option value="Transgender">Transgender</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="radio" 
+            name="profile-status"
+            id="public-id" 
+            value="public">
+            <label for="">Public</label>
+            <input type="radio"
+            name="profile-status"
+            id="private-id" 
+            value="private">
+            <label for="">Private</label>
+        </div>
+
+        <div>
+            <label for="Comedy-id">Comedy</label>
+            <input type="checkbox" name="genre" id="Comedy-id" value="comedy">
+
+            <label for="Romance-id">Romance</label>
+            <input type="checkbox" name="genre" id="Romance-id" value="Romance">
+            
+            <label for="Horror-id">Horror</label>
+            <input type="checkbox" name="genre" id="Horror-id" value="Horror">
+
+            <label for="Action-id">Action</label>
+            <input type="checkbox" name="genre" id="Action-id" value="Action">
+            
+            <label for="Thriller-id">Thriller</label>
+            <input type="checkbox" name="genre" id="Thriller-id" value="Thriller">
+
+            <label for="Drama-id">Drama</label>
+            <input type="checkbox" name="genre" id="Drama-id" value="Drama">
+
+            <label for="Musical-id">Musical</label>
+            <input type="checkbox" name="genre" id="Musical-id" value="Musical">
+
+            <label for="Fantasy-id">Fantasy</label>
+            <input type="checkbox" name="genre" id="Fantasy-id" value="Fantasy">
+
+            <label for="Western-id">Western</label>
+            <input type="checkbox" name="genre" id="Western-id" value="Western">
+
+            <label for="Sci-Fi-id">Sci-Fi</label>
+            <input type="checkbox" name="genre" id="Sci-Fi-id" value="Sci-Fi">
+
+            <label for="Crime-id">Crime</label>
+            <input type="checkbox" name="genre" id="Crime-id" value="Crime">
+
+            <label for="Adventure-id">Adventure</label>
+            <input type="checkbox" name="genre" id="Adventure-id" value="Adventure">
+
+            <label for="Animation-id">Animation</label>
+            <input type="checkbox" name="genre" id="Animation-id" value="Animation">
+        </div>
+
+        <div>
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+        </div>
+    </form>
+</body>
+</html>

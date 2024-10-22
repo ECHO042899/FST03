@@ -1,0 +1,43 @@
+/* Static */
+/* Elements follow the normal document flow */
+
+/* Relative */
+#relative {
+    background-color: yellow;
+    position: relative;
+    /* top, right, bottom, left */
+    top: 10px;
+    left: 10px;
+}
+
+/* Absolute */
+/* Remove the element from the normal document flow */
+#absolute {
+    background-color: #0cf;
+    position: absolute;
+    /* top, right, bottom, left */
+    top: 0px;
+    right: 0px;
+}
+
+/* Fixed */
+/* relative to the viewport */
+/* stays at the same place when you scroll */
+#fixed {
+    background-color: red;
+    position: fixed;
+    /* top, right, bottom, left */
+    bottom: 0px;
+    right: 0px;
+}
+
+/* Sticky */
+/* Sticky to the top when it reaches the top of the viewport */
+
+#sticky {
+    background-color: blue;
+    position: sticky;
+    top: 0;
+}
+
+
